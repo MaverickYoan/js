@@ -81,3 +81,11 @@ switch (g) {
     default:
         document.getElementById('p13').innerHTML = 'g ne stock ni 2, ni 5, ni 10, ni 15, ni 20';
 }
+
+// * Les opérateurs d’incrémentation et de décrémentation : "++x", "x++", "--x", "x--".
+
+// // déclarons et initialisons sur la même ligne nos variables. 
+let h = 10, i = 10, j = 20, j = 20;
+
+// // Nous incrémentons / décrémentons et affectons le résultat dans un paragraphe.
+// ! ATTENTION : le premier "+" est un opérateur de concaténation.
