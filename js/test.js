@@ -85,7 +85,15 @@ switch (g) {
 // * Les opérateurs d’incrémentation et de décrémentation : "++x", "x++", "--x", "x--".
 
 // // déclarons et initialisons sur la même ligne nos variables. 
-let h = 10, i = 10, j = 20, j = 20;
+let h = 10, i = 10, j = 20, k = 20;
 
 // // Nous incrémentons / décrémentons et affectons le résultat dans un paragraphe.
 // ! ATTENTION : le premier "+" est un opérateur de concaténation.
+document.getElementById('p14').innerHTML = 'h stock ' + h++;
+document.getElementById('p15').innerHTML = 'i stock ' + ++i;
+document.getElementById('p16').innerHTML = 'j stock ' + j--;
+document.getElementById('p17').innerHTML = 'k stock ' + --k;
+
+// // Voici le contenu de nos variables
+document.getElementById('p18').innerHTML = 'h = ' + h + ', i = ' + i + ', j = ' + j + ', k = ' + k;
+
